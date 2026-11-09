@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preview statis antarmuka aplikasi inventaris barang.">
+    <title>Inventaris Barang — Preview</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="page">
+        <header class="page-header">
+            <div class="brand">
+                <span class="brand-mark" aria-hidden="true">I</span>
+                <span>Ruang Kerja <span class="brand-divider">/</span> Inventaris</span>
+            </div>
+            <span class="preview-badge"><span></span> Preview statis</span>
+        </header>
+
+        <section class="intro">
+            <p class="eyebrow">MANAJEMEN INVENTARIS</p>
+            <h1>Barang</h1>
+            <p class="intro-copy">Catat dan kelola barang dalam satu tempat.</p>
+        </section>
+
+        <aside class="notice">
+            <span class="notice-icon" aria-hidden="true">i</span>
+            <p><strong>Ini adalah preview statis.</strong> Data dan aksi inventaris tidak tersambung ke backend. Jalankan aplikasi dengan Docker Compose untuk menggunakan fitur lengkap.</p>
+        </aside>
+
+        <section class="stats" aria-label="Ringkasan inventaris">
+            <article class="stat-card">
+                <p class="stat-label">Total barang</p>
+                <p class="stat-value">0</p>
+            </article>
+            <article class="stat-card">
+                <p class="stat-label">Nilai inventaris</p>
+                <p class="stat-value">Rp 0</p>
+            </article>
+            <article class="stat-card">
+                <p class="stat-label">Mode</p>
+                <p class="stat-value stat-mode">Hanya tampilan</p>
+            </article>
+        </section>
+
+        <section class="panel" aria-labelledby="inventory-heading">
+            <div class="inventory-toolbar">
+                <div>
+                    <h2 id="inventory-heading">Daftar barang</h2>
+                    <p class="section-copy">Data inventaris akan tampil saat backend aktif.</p>
+                </div>
+                <span class="item-count">0 item</span>
+            </div>
+            <div class="empty-state">
+                <span class="empty-mark" aria-hidden="true">—</span>
+                <p class="empty-title">Belum ada data untuk ditampilkan</p>
+                <p>Preview ini tidak terhubung ke database aplikasi.</p>
+            </div>
+        </section>
+
+        <footer class="page-footer">Praktikum Komputasi Awan <span aria-hidden="true">·</span> Docker Compose</footer>
+    </main>
+</body>
+</html>

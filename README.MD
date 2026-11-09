@@ -7,20 +7,17 @@ Proyek ini merupakan implementasi praktikum Komputasi Awan yang mendemonstrasika
 - **GitHub:** [willyrafaelfs/Praktikum-Komputasi-Awan-Docker](https://github.com/willyrafaelfs/praktikum-komputasi-awan-docker)
 - **GitLab:** [willyrafaelfs/Praktikum-Komputasi-Awan-Docker](https://gitlab.com/willyrafaelfs/Praktikum-Komputasi-Awan-Docker)
 
-Untuk kloning melalui HTTPS:
+Klon repository dari salah satu platform:
 
 ```bash
 git clone https://github.com/willyrafaelfs/praktikum-komputasi-awan-docker.git
 ```
 
-URL SSH yang digunakan pemilik repository:
+Atau gunakan mirror GitLab:
 
-```text
-git@github.com-w:willyrafaelfs/Praktikum-Komputasi-Awan-Docker.git
-git@gitlab.com-w:willyrafaelfs/Praktikum-Komputasi-Awan-Docker.git
+```bash
+git clone https://gitlab.com/willyrafaelfs/Praktikum-Komputasi-Awan-Docker.git
 ```
-
-Host `github.com-w` dan `gitlab.com-w` adalah alias SSH lokal. Gunakan HTTPS atau konfigurasi alias tersebut di `~/.ssh/config` jika belum tersedia di komputer Anda.
 
 ## Fitur
 
