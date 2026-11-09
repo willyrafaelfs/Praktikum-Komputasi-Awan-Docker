@@ -48,6 +48,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    document.querySelectorAll('.edit-button').forEach(button => {
+        button.addEventListener('click', function () {
+            openEditModal(this.dataset.id, this.dataset.name, this.dataset.price);
+        });
+    });
+
+    document.querySelectorAll('.delete-button').forEach(button => {
+        button.addEventListener('click', function () {
+            openDeleteModal(this.dataset.id, this.dataset.name);
+        });
+    });
+
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') {
             document.querySelectorAll('.modal-overlay.active').forEach(modal => {

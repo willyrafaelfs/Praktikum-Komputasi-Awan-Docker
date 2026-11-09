@@ -33,12 +33,12 @@ Host `github.com-w` dan `gitlab.com-w` adalah alias SSH lokal. Gunakan HTTPS ata
 
 ## Teknologi
 
-- **Frontend:** Python, Flask, Tailwind CSS, dan JavaScript
+- **Frontend:** Python, Flask, CSS, dan JavaScript
 - **API:** Python, Flask, dan Psycopg2
 - **Database:** PostgreSQL 15
 - **Container orchestration:** Docker Compose
 
-Tailwind CSS dimuat melalui Play CDN, sehingga browser memerlukan koneksi internet untuk menampilkan styling.
+Antarmuka menggunakan CSS lokal dan font sistem, sehingga styling tidak bergantung pada CDN eksternal.
 
 ## Menjalankan aplikasi
 
